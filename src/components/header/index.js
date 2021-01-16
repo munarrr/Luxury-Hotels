@@ -18,7 +18,7 @@ const Header = () => {
                          <nav className="header__nav">
                               <ul className="header__item flex">
                                    <li className="header__list"><a className="header__link">Home</a></li>
-                                   <li className="header__list"><a className="header__link">Facillties</a></li>
+                                   <li className="header__list"><a className="header__link">Facllties</a></li>
                                    <li className="header__list"><a className="header__link">Rooms</a></li>
                                    <li className="header__list"><a className="header__link">contact-us</a></li>
                               </ul>
