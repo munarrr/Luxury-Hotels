@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import logo from '../../assets/img/Logo.svg'
 import header from '../../assets/img/header.png'
 import '../../assets/scss/base.scss'
@@ -17,10 +18,10 @@ const Header = () => {
                     <div className="header__nav">
                          <nav className="header__nav">
                               <ul className="header__item flex">
-                                   <li className="header__list"><a className="header__link">Home</a></li>
-                                   <li className="header__list"><a className="header__link">Facllties</a></li>
-                                   <li className="header__list"><a className="header__link">Rooms</a></li>
-                                   <li className="header__list"><a className="header__link">contact-us</a></li>
+                                   <li className="header__list"><Link className="header__link" to="/" >Home</Link></li>
+                                   <li className="header__list"><Link className="header__link" to="/fasilites" >Facllties</Link></li>
+                                   <li className="header__list"><Link className="header__link" to="/rooms" >Rooms</Link></li>
+                                   <li className="header__list"><Link className="header__link" to="/contact">contact-us</Link></li>
                               </ul>
                          </nav>
                     </div>
