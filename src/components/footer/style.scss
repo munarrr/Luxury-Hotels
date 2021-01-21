@@ -1,0 +1,84 @@
+@import "../../assets/scss/index.scss";
+
+.footer {
+  margin-top: 100px;
+  &__end {
+    background-color: $color-blue;
+    display: flex;
+    padding: 120px 150px;
+    margin-top: 100px;
+  }
+  &__title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+  }
+  &__d {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  &__des{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 194.9%; 
+     color: #F7F7F7;
+     
+  }
+}
+.reviews {
+  text-align: center;
+  margin-bottom: 100px;
+  &__title {
+    text-align: center;
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    color: $color-blue;
+  }
+  &__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: $color-blue;
+  }
+  &__users {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: $color-blue;
+  }
+  &__next {
+    color: $color-white;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background: #e0b973;
+    transform: rotate(180deg);
+  }
+  &__last {
+    color: $color-white;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background: #e0b973;
+    transform: rotate(180deg);
+  }
+}
