@@ -1,13 +1,12 @@
 import React from 'react'
 
-
-const Rooms = () => {
-    
+const Footer = () => {
      return (
           <div>
-             
+               
           </div>
      )
 }
 
-export default Rooms
+export default Footer
+

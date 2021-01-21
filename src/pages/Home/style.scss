@@ -1,0 +1,61 @@
+@import "../../assets//scss/index.scss";
+
+.home {
+  &__title {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #14274a;
+    margin: 83px 0 93px;
+  }
+  &__suptitle{
+     font-family: Adobe Garamond Pro;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 60px;
+     line-height: 72px;          
+     color: #14274A;
+  }
+  &__description{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 25px;
+     line-height: 40px;     
+     color: #14274A;
+     margin-top: 25px;
+     
+  }
+  &__btn{
+       padding: 10px;
+       background-color: $color-yellow;
+       color:$color-white;
+       border: none;
+       outline: none;
+       border-radius: 8px;
+       margin-top: 30px;
+  }
+  &__img{
+       width: 700px;
+       height: 500px;
+       border-radius: 7px;
+       margin-left: 40px;
+       float:right;
+  }
+  &__exlope{
+       float: left;
+       width: 600px;
+       margin-top: 40px;
+       border-left: 2px solid $color-blue;
+       margin-left: 30px;
+       padding-left: 50px;
+  }
+  &__content{
+       display: flex;
+       margin-top: 60px;
+  }
+
+}

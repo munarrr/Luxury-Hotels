@@ -1,20 +1,88 @@
-.header{
-     position: relative;
-     &__img{
-          position: absolute;
-          left: 0;
-          top: 0;
-          z-index: -1;
-     }
-     &__link{
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 25px;
-          line-height: 30px;
-          color: #FFFFFF;
-          margin-left: 20px;
-          cursor:pointer;
-     }
+@import "../../assets/scss/index.scss";
 
+.header {
+  background-image: url('https://i.pinimg.com/originals/06/eb/80/06eb801ba77f2dde015262b35116143b.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__link {
+    @include font(20px, 30px, $family);
+    color: $color-white;
+    margin-left: 40px;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  &__logo {
+    margin-left: 110px;
+
+    &__img {
+      width: 146px;
+      height: 110px;
+    }
+  }
+  &__nav {
+    margin-top: 24px;
+  }
+  &__title {
+    color: $color-white;
+    font-family: Adobe Garamond Pro;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 100px;
+  }
+  &__titlel {
+    color: $color-white;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  &__p {
+    color: $color-white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &__info {
+    margin: 180px 80px 60px 80px;
+    padding: 40px;
+  }
+  &__btn {
+    background-color: $color-yellow;
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  &__scroll{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+}
+.flexx{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }

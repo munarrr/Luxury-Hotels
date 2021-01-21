@@ -1,0 +1,16 @@
+{
+     "rooms":[
+          {
+          "id":1,
+          "img":"https://pix10.agoda.net/hotelImages/659/6592334/6592334_19022704030072546007.jpg",
+          "name":"Our rooms are designed to transport    you into an environment made for leisure           Take your mind off the day-to-day of home           life and find a private paradise for yourself",
+          "title":"Luxury redefined"
+     },
+     {
+          "id":1,
+          "img":"https://www.mtu.edu/housing/options/short-term/images/img-0260-banner800.jpg",
+          "name":"Our rooms are designed to transport    you into an environment made for leisure           Take your mind off the day-to-day of home           life and find a private paradise for yourself",
+          "title":"Leave your worries in the sand"
+     }
+]
+}

@@ -1,14 +1,15 @@
+@import './variables';
+
 *{
-     margin:o auto;
+     margin:  0 auto;
      padding:0;
      box-sizing: border-box;
 }
 
 .container{
-     width: 1300px;
+     width: 1450px;
      margin: 0 auto;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap');
 
 li{
      list-style: none;
@@ -35,7 +36,7 @@ a{
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: yellow;
+     background-color:$color-yellow;
      padding: 10px;
 }
 

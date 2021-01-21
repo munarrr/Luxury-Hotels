@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap');
+
+$color-yellow: #E0B973;
+$color-blue: #14274A;
+$family:  sans-serif;
+$color-white: #ffff;
+
+
+@mixin font($size, $weight, $line: 1) {
+	font-size: $size;
+	font-weight: $weight;
+	font-family: $family, sans-serif;
+	line-height: $line;
+	font-style: normal;
+}
+
